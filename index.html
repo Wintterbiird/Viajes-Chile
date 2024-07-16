@@ -14,8 +14,152 @@
     rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand px-4" href="#">
+                <img src="assets/img/viajes.svg" alt="favicon viajes chile"> Viajes Chile
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Quienes somos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Destacados</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/carousel1.jpg" class="imagenes-carrusel" alt="Llamas">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/carousel2.jpg" class="imagenes-carrusel" alt="Moaís">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/carousel3.jpg" class="imagenes-carrusel" alt="Pinguno">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>  
+    </header>
+
+    <section class="quienessomos">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4 mb-3">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nulla efficitur lorem ac purus imperdiet ornare. In dignissim nibh sit
+                        amet iaculis sagittis. Integer vitae finibus ex. Etiam porttitor nulla sit 
+                        amet luctus dictum. Morbi placerat malesuada velit in ultrices. Nunc dictum
+                        dui quis sem tempus auctor. Fusce dignissim, mauris iaculis rutrum volutpat, 
+                        est sapien malesuada urna, ultricies sodales neque ligula sit amet lectus.
+                        Quisque accumsan quam porta, vulputate ligula eu, convallis nulla. Mauris nulla
+                        diam, lobortis a dolor id, pharetra molestie erat. Ut suscipit, quam sit amet
+                    |   auctor ornare, eros urna imperdiet felis, efficitur fringilla tortor leo nec mauris.</p>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4 mb3">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nulla efficitur lorem ac purus imperdiet ornare. In dignissim nibh sit
+                        amet iaculis sagittis. Integer vitae finibus ex. Etiam porttitor nulla sit 
+                        amet luctus dictum. Morbi placerat malesuada velit in ultrices. Nunc dictum
+                        dui quis sem tempus auctor. Fusce dignissim, mauris iaculis rutrum volutpat, 
+                        est sapien malesuada urna, ultricies sodales neque ligula sit amet lectus.
+                        Quisque accumsan quam porta, vulputate ligula eu, convallis nulla. Mauris nulla
+                        diam, lobortis a dolor id, pharetra molestie erat. Ut suscipit, quam sit amet
+                    |   auctor ornare, eros urna imperdiet felis, efficitur fringilla tortor leo nec mauris.</p>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4 mb-3">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nulla efficitur lorem ac purus imperdiet ornare. In dignissim nibh sit
+                        amet iaculis sagittis. Integer vitae finibus ex. Etiam porttitor nulla sit 
+                        amet luctus dictum. Morbi placerat malesuada velit in ultrices. Nunc dictum
+                        dui quis sem tempus auctor. Fusce dignissim, mauris iaculis rutrum volutpat, 
+                        est sapien malesuada urna, ultricies sodales neque ligula sit amet lectus.
+                        Quisque accumsan quam porta, vulputate ligula eu, convallis nulla. Mauris nulla
+                        diam, lobortis a dolor id, pharetra molestie erat. Ut suscipit, quam sit amet
+                    |   auctor ornare, eros urna imperdiet felis, efficitur fringilla tortor leo nec mauris.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="destacados">
+        <div class="container">
+            <div class="row row-cols-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/img/card1.jpg" class="card-img-top" alt="paisaje bonito">
+                        <div class="card-body">
+                        <h5 class="card-title fw-light" id="titulo-card">Lorem ipsum dolor sit amet</h5>
+                        <p class="card-text">i placerat malesuada velit in ultrices. Nunc dictum dui quis sem tempus auctor.
+                            Fusce dignissim, mauris iaculis rutrum volutpat.</p>   
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card ">
+                        <img src="assets/img/card2.jpg" class="card-img-top" alt="paisaje bonito">
+                        <div class="card-body ">
+                        <h5 class="card-title fw-light" id="titulo-card">Lorem ipsum dolor sit amet</h5>
+                        <p class="card-text">i placerat malesuada velit in ultrices. Nunc dictum dui quis sem tempus auctor.
+                            Fusce dignissim, mauris iaculis rutrum volutpat.</p>   
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/img/card3.jpg" class="card-img-top" alt="paisaje bonito">
+                        <div class="card-body ">
+                        <h5 class="card-title fw-light" id="titulo-card">Lorem ipsum dolor sit amet</h5>
+                        <p class="card-text">i placerat malesuada velit in ultrices. Nunc dictum dui quis sem tempus auctor.
+                             Fusce dignissim, mauris iaculis rutrum volutpat. </p>   
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/img/card4.jpg" class="card-img-top" alt="paisaje bonito">
+                        <div class="card-body">
+                        <h5 class="card-title fw-light" id="titulo-card">Lorem ipsum dolor sit amet</h5>
+                        <p class="card-text">i placerat malesuada velit in ultrices. Nunc dictum dui quis sem tempus auctor.
+                            Fusce dignissim, mauris iaculis rutrum volutpat.</p>   
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="contacto">
 
 
+    </section>
+
+    <footer></footer>
 
 
     <!-- Bootstrap -->

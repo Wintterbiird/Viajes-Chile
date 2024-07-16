@@ -2,6 +2,8 @@
     Border: 0;
     Margin: 0;
     Padding: 0;
+    font-family: "Raleway", sans-serif;
+
 }
 
 /* Fuente */
@@ -12,14 +14,63 @@
     font-style: normal;
 }
 
+.quienessomos, .destacados{
+    background-color: #000000;
+}
+
 /* Nav */
+a.navbar-brand img{
+    height: 1rem;
+}
+
+a.navbar-brand{
+    font-size:15px ;
+}
+
+nav{
+    background-color: transparent!important;
+    font-size:15px;
+}
 
 /* Head-Carrusel */
+
+.imagenes-carrusel{
+    height: 850px;
+    width: 1530px;
+}
+
 
 /* Sección ¿Quienes somos? */
 
 /* Sección Destacados */
 
+.card-body{
+    background-color:#0dcaf0 ;
+}
+.card-img-top{
+    height: 200px;
+}
+.card-text, #titulo-card {
+    color: #ffffff;
+}
+
 /* Seccion Contacto */
 
 /* Footer */
+
+
+
+
+@media (max-width: 566px){
+
+    /* Carrusel */
+    .imagenes-carrusel{
+        width:435px;
+        height:200px;
+    }
+
+    /*  */
+    col{
+        }
+    
+}
