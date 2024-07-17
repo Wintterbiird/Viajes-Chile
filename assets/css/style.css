@@ -31,17 +31,17 @@ a.navbar-brand{
 }
 
 nav{
-    font-size:13px;
+    font-size: 13px;
 }
 
 a.nav-link{
-    opacity:0.7;
+    opacity: 0.7;
 }
 
 /* Head-Carrusel */
 
 .imagenes-carrusel{
-    height: 850px;
+    height: 748px;
     width: 1530px;
 }
 
@@ -49,6 +49,7 @@ a.nav-link{
 
 .quienessomos p{
     color: #ffffff;
+    font-size: 15px;
 }
 .iconos{
     color: #ffffff;
@@ -78,8 +79,12 @@ a.nav-link{
     height: 200px;
 }
 
-.card-text, #titulo-card {
-    color: #ffffff;
+.card-text{
+    font-size: 15px;
+}
+
+.card-text, .card-title {
+    color: #ffffff!important;
 }
 
 /* Seccion Contacto */
@@ -109,14 +114,14 @@ footer{
 }
 
 .footer-text{
-    padding-top:1rem;
-    padding-left:15rem;
+    padding-top: 1rem;
+    padding-left: 15rem;
     font-size: 1rem;
     color: #ffffff;
 }
 
 .iconos2{
-    padding-top:0.6rem;
+    padding-top: 0.6rem;
     display: flex;
     font-size:1.5rem;
 }
@@ -130,8 +135,8 @@ footer{
 
     /* Carrusel */
     .imagenes-carrusel{
-        width:435px;
-        height:200px;
+        width: 435px;
+        height: 200px;
     }
 
     /* Seccion Quienes somos */
@@ -144,6 +149,10 @@ footer{
         margin-left: 1rem;
         margin-right: 1rem;
         margin-bottom: 1rem;
+    }
+
+    .card-text, .card-title {
+        text-align: center;
     }
 
     /* Contacto */

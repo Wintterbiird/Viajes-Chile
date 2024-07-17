@@ -14,27 +14,23 @@ $(document).ready(function() {
 });
 
 // Carrusel
-// $(".carousel").on('slide.bs.carousel', function () {
-//     alert('No sea ansioso');
-// });
+const myCarouselElement = document.querySelector('.carousel')
+const carousel = new bootstrap.Carousel(myCarouselElement, {
+  interval: 3000,
+  keyboard: false,
+});
 
-// $('.carousel').carousel({
-//     interval: 2000
-// });
-// const carousel = new bootstrap.Carousel('.Carousel')
-
-// Si uno pasa el mouse por uno de los iconos, todos los parrafos desaparecerán y si
-// uno quita el mouse de algún icono, los parrafos volverán a aparecer.
+// Si le damos click a uno de los iconos todos los parrafos desapareceran hasta que quitemos el cursor del icono.
 
 $(document).ready(function(){
     $(".iconos").click(function(){
-      $(".desaparece").fadeOut();
+        $(".desaparece").fadeOut();
     });
 
     $(".iconos").mouseleave(function(){
         $(".desaparece").fadeIn();
-      });
-  });
+    });
+});
 
 //  Mensaje cuando uno le da click a boton enviar 
 
@@ -42,10 +38,6 @@ $(document).ready(function(){
     $("#boton").click(function(){
     alert("Gracias por contactarte con nosotros");
     });
-  });  
+});  
 
-// Tooltip
-  $(document).ready(function(){
-    $('[data-bs-toggle="tooltip"]').tooltip();   
-  });  
 
