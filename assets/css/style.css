@@ -45,8 +45,7 @@ a.nav-link{
     width: 1530px;
 }
 
-
-/* Sección ¿Quienes somos? */
+/* Seccion ¿Quienes somos? */
 
 .quienessomos p{
     color: #ffffff;
@@ -74,9 +73,11 @@ a.nav-link{
 .card-body{
     background-color:#0dcaf0 ;
 }
+
 .card-img-top{
     height: 200px;
 }
+
 .card-text, #titulo-card {
     color: #ffffff;
 }
@@ -85,13 +86,6 @@ a.nav-link{
 
 .contacto h3{
     color: #ffffff;
-}
-
-/* Footer */
-
-footer{
-    padding: 1.5rem;
-    background-color: #0dcaf0;
 }
 
 .form-label{
@@ -103,8 +97,34 @@ footer{
     color: #ffffff;
 }
 
+#boton:hover{
+    background-color: #095766;
+}
 
+/* Footer */
 
+footer{
+    padding: 0.4rem;
+    background-color: #0dcaf0;
+}
+
+.footer-text{
+    padding-top:1rem;
+    padding-left:15rem;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.iconos2{
+    padding-top:0.6rem;
+    display: flex;
+    font-size:1.5rem;
+}
+
+.fa-brands{
+    color: #ffffff;
+
+}
 
 @media (max-width: 566px){
 
@@ -116,19 +136,24 @@ footer{
 
     /* Seccion Quienes somos */
     .quienessomos{
-        display:none;
+        display: none;
     }
 
     /* Destacados */
     .card{
-        margin-left:1rem;
-        margin-right:1rem;
-        margin-bottom:1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
     }
 
     /* Contacto */
     .contacto{
-        padding-left:1rem;
-        padding-right:1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    /* footer */
+    .footer-text{
+        padding-left: 1rem;
     }
 }
