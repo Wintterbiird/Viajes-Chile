@@ -15,7 +15,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-dark fixed-top mx-4">
             <a class="navbar-brand px-4" href="#">
                 <img src="assets/img/viajes.svg" alt="favicon viajes chile"> Viajes Chile
             </a>
@@ -23,18 +23,18 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto">
+              <ul class="navbar-nav ms-auto mx-4">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Inicio</a>
+                  <a class="nav-link text-light" href="#">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Quienes somos</a>
+                  <a class="nav-link text-light" href="#quienessomos">Quiénes somos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Destacados</a>
+                  <a class="nav-link text-light" href="#destacados">Destacados</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contacto</a>
+                  <a class="nav-link text-light" href="#contacto">Contacto</a>
                 </li>
               </ul>
             </div>
@@ -63,10 +63,12 @@
         </div>  
     </header>
 
-    <section class="quienessomos">
+    <section class="quienessomos" id="quienessomos">
+        <h3 class="text-center py-5">¿QUIÉNES SOMOS?</h3>
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-12 col-lg-4 mb-3">
+                    <div class="iconos"><i class="fa-solid fa-plane"></i></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Nulla efficitur lorem ac purus imperdiet ornare. In dignissim nibh sit
                         amet iaculis sagittis. Integer vitae finibus ex. Etiam porttitor nulla sit 
@@ -86,9 +88,12 @@
                         est sapien malesuada urna, ultricies sodales neque ligula sit amet lectus.
                         Quisque accumsan quam porta, vulputate ligula eu, convallis nulla. Mauris nulla
                         diam, lobortis a dolor id, pharetra molestie erat. Ut suscipit, quam sit amet
-                    |   auctor ornare, eros urna imperdiet felis, efficitur fringilla tortor leo nec mauris.</p>
+                        auctor ornare, eros urna imperdiet felis, efficitur fringilla tortor leo nec mauris.</p>
+                        <div class="iconos"><i class="fa-solid fa-mountain"></i></div>
+                    
                 </div>
                 <div class="col-12 col-md-12 col-lg-4 mb-3">
+                    <div class="iconos"><i class="fa-solid fa-route"></i></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Nulla efficitur lorem ac purus imperdiet ornare. In dignissim nibh sit
                         amet iaculis sagittis. Integer vitae finibus ex. Etiam porttitor nulla sit 
@@ -103,10 +108,11 @@
         </div>
     </section>
 
-    <section class="destacados">
+    <section class="destacados" id="destacados">
+        <h3 class="text-center py-5">DESTACADOS</h3>
         <div class="container">
-            <div class="row row-cols-4">
-                <div class="col">
+            <div class="row">
+                <div class="col-sm-3">
                     <div class="card">
                         <img src="assets/img/card1.jpg" class="card-img-top" alt="paisaje bonito">
                         <div class="card-body">
@@ -117,7 +123,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col-sm-3">
                     <div class="card ">
                         <img src="assets/img/card2.jpg" class="card-img-top" alt="paisaje bonito">
                         <div class="card-body ">
@@ -128,7 +134,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col-sm-3">
                     <div class="card">
                         <img src="assets/img/card3.jpg" class="card-img-top" alt="paisaje bonito">
                         <div class="card-body ">
@@ -139,7 +145,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col-sm-3">
                     <div class="card">
                         <img src="assets/img/card4.jpg" class="card-img-top" alt="paisaje bonito">
                         <div class="card-body">
@@ -154,12 +160,29 @@
         </div>
     </section>
 
-    <section class="contacto">
-
-
+    <section class="contacto" id="contacto">
+        <h3 class="text-center pt-5 pb-4">CONTACTO</h3>
+        <div class="container">
+            <div class="mb-2">
+                <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="formGroupExampleInput">
+              </div>
+              <div class="mb-2">
+                <label for="formGroupExampleInput2" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2">
+              </div>
+              <div class="mb-2">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="button" class="btn mt-2 mb-5" id="boton">Enviar</button>
+        </div>
     </section>
 
-    <footer></footer>
+    <footer>
+        <p>VIAJES CHILE</p>
+
+    </footer>
 
 
     <!-- Bootstrap -->

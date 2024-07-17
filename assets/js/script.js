@@ -3,10 +3,10 @@
 //     alert('No sea ansioso');
 // });
 
-$(".carousel").carousel({
-    interval: 100
-});
 
-// Tooltips
+const myCarouselElement = document.querySelector('#myCarousel')
 
-
+const carousel = new bootstrap.Carousel(myCarouselElement, {
+interval: 500,
+touch: false
+})
