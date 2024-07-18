@@ -1,5 +1,5 @@
 # Prueba final del primer modulo "Fundamentos del desarrollo Front-End"
-Para realizar esta prueba debes haber estudiado previamente todo el material
+Para realizar esta prueba debí haber estudiado previamente todo el material
 disponible en el LMS correspondiente al módulo.
 ## Capítulos
 - Introducción a HTML.
@@ -19,11 +19,7 @@ disponible en el LMS correspondiente al módulo.
 - Introducción a Github.
 - Trabajando con Git y Github.
 ## Descripción
-La agencia Viajes Chile solicita la creación de su landing page, que tenga un diseño atractivo
-e innovador, utilizando los conocimientos que has adquirido a través de las distintas
-unidades. Para esto, puedes guiarte por la siguiente estructura:
-
-La página debe contener las siguientes secciones:
+Para poder crear mi pagina landing Viajes Chile y que fuera igual al diseño de la maqueta tuve que agregar todo lo que se indica en en esta lista.
 * Una barra de navegación fija en la parte superior de la pantalla, con el logo y links a
 diferentes secciones de la página, haciendo un smooth scroll.
 * Un carousel que muestre las imágenes destacadas del sitio.
